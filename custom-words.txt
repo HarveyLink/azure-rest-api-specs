@@ -1987,3 +1987,5 @@ Appxmanifest
 msixpackage
 xml
 Creds
+ssoadfs
+Idempotence
