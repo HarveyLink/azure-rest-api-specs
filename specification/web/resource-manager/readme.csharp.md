@@ -61,7 +61,7 @@ batch:
 
 These settings apply only when `--csharp-profile=hybrid_2020_09_01` is specified on the command line.
 
-``` yaml $(csharp-profile)=='hybrid_2019_03_01'
+``` yaml $(csharp-profile)=='hybrid_2020_09_01'
 namespace: Microsoft.Azure.Management.Profiles.$(csharp-profile).WebSites
 output-folder: $(csharp-sdks-folder)/$(csharp-profile)/Websites/Management.Websites/Generated
 batch:
