@@ -1228,12 +1228,13 @@ Creating this tag to pick proper resources from the hybrid profile.
 ``` yaml $(tag) == 'profile-hybrid-2020-09-01'
 input-file:
 - Microsoft.Web/stable/2018-02-01/Certificates.json
+- Microsoft.Web/stable/2018-02-01/CommonDefinitions.json
 - Microsoft.Web/stable/2018-02-01/WebApps.json
 - Microsoft.Web/stable/2018-02-01/ResourceProvider.json
-- Microsoft.Web/stable/2016-09-01/AppServicePlans.json
-- Microsoft.Web/stable/2016-03-01/Provider.json
-- Microsoft.Web/stable/2016-03-01/ResourceProvider.json
-- Microsoft.Web/stable/2016-03-01/Recommendations.json
+- Microsoft.Web/stable/2018-02-01/AppServicePlans.json
+- Microsoft.Web/stable/2018-02-01/Provider.json
+- Microsoft.Web/stable/2018-02-01/ResourceProvider.json
+- Microsoft.Web/stable/2018-02-01/Recommendations.json
 ```
 
 ## AzureResourceSchema
