@@ -1,11 +1,12 @@
 ---
 - rule:
-    booleanFilterExpression: "Java"
+    booleanFilterExpression: "needs-triage"
     assignees:
+      - PhoenixHe-msft
+      - raych1
+      - akning-ms
+      - leni-msft
       - ruowan
+      - jianyexi
+      - zhenglaizhang
 
-- rule:
-    booleanFilterExpression: "Python"
-    assignees:
-      - ruowan
-      - NullMDR
