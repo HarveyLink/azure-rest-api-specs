@@ -781,18 +781,6 @@
   "definitions": {
     "ManagedHsmSku": {
       "properties": {
-        "family": {
-          "type": "string",
-          "description": "SKU Family of the managed HSM Pool",
-          "enum": [
-            "B"
-          ],
-          "x-ms-client-default": "B",
-          "x-ms-enum": {
-            "name": "ManagedHsmSkuFamily",
-            "modelAsString": true
-          }
-        },
         "name": {
           "type": "string",
           "description": "SKU of the managed HSM Pool",
@@ -803,6 +791,18 @@
           "x-ms-enum": {
             "name": "ManagedHsmSkuName",
             "modelAsString": false
+          }
+        },
+        "family": {
+          "type": "string",
+          "description": "SKU Family of the managed HSM Pool",
+          "enum": [
+            "B"
+          ],
+          "x-ms-client-default": "B",
+          "x-ms-enum": {
+            "name": "ManagedHsmSkuFamily",
+            "modelAsString": true
           }
         }
       },

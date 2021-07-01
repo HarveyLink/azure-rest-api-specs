@@ -1034,18 +1034,6 @@
   "definitions": {
     "Sku": {
       "properties": {
-        "family": {
-          "type": "string",
-          "description": "SKU family name",
-          "enum": [
-            "A"
-          ],
-          "x-ms-client-default": "A",
-          "x-ms-enum": {
-            "name": "SkuFamily",
-            "modelAsString": true
-          }
-        },
         "name": {
           "type": "string",
           "description": "SKU name to specify whether the key vault is a standard vault or a premium vault.",
@@ -1056,6 +1044,18 @@
           "x-ms-enum": {
             "name": "SkuName",
             "modelAsString": false
+          }
+        },
+        "family": {
+          "type": "string",
+          "description": "SKU family name",
+          "enum": [
+            "A"
+          ],
+          "x-ms-client-default": "A",
+          "x-ms-enum": {
+            "name": "SkuFamily",
+            "modelAsString": true
           }
         }
       },
