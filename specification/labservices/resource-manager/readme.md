@@ -25,6 +25,7 @@ To see additional help and options, run:
 These are the global settings for the LabServices API.
 
 ``` yaml
+title: LabServicesManagementClient
 openapi-type: arm
 tag: package-preview-2021-11
 ```
