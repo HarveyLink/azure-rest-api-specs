@@ -10,8 +10,8 @@
         "description": "sample schema description",
         "schemaType": "json",
         "document": {
-          "$id": "https://example.com/person.schema.json",
-          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "id": "https://example.com/person.schema.json",
+          "schema": "https://json-schema.org/draft/2020-12/schema",
           "title": "Person",
           "type": "object",
           "properties": {
@@ -48,8 +48,8 @@
           "description": "sample schema description",
           "schemaType": "json",
           "document": {
-            "$id": "https://example.com/person.schema.json",
-            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "id": "https://example.com/person.schema.json",
+            "schema": "https://json-schema.org/draft/2020-12/schema",
             "title": "Person",
             "type": "object",
             "properties": {
@@ -80,8 +80,8 @@
           "description": "sample schema description",
           "schemaType": "json",
           "document": {
-            "$id": "https://example.com/person.schema.json",
-            "$schema": "https://json-schema.org/draft/2020-12/schema",
+            "id": "https://example.com/person.schema.json",
+            "schema": "https://json-schema.org/draft/2020-12/schema",
             "title": "Person",
             "type": "object",
             "properties": {
